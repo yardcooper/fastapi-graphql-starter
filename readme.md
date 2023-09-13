@@ -21,3 +21,8 @@ masonite-orm model User --directory models
 # create initial migrations
 masonite-orm migration migration_for_user_table --create users
 ```
+
+## Test app
+```
+python -m pytest
+```
